@@ -1,0 +1,29 @@
+GET http://localhost:3000/posts
+
+###
+
+GET http://localhost:3000/posts/6127482e4d8aa6a0cb55930d
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "Test2 post",
+    "description": "Lorem description"
+}
+
+###
+
+DELETE http://localhost:3000/posts/61350e2869104b32b247f5e1
+
+###
+
+PATCH http://localhost:3000/posts/61350c32a12b979105db9b28
+Content-Type: application/json
+
+{
+    "title": "dasdkasd;kas;d;kasd",
+    "description": "sad22dasda"
+}
